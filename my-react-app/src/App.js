@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Projet React 1</h1>
-      </header>
+    <div className="container">
+      <Header></Header>
     </div>
   );
 }
